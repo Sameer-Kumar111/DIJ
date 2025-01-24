@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex_container{
+    border: 10px red solid;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.first_layout{
+  border: 8px solid black;
+  height: 760px;
+  width: 200px;  
+}
+
+.div1{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.747);
+    height: 750px;   
+}
+
+.first_div1{
+    border: 6px rgb(21, 255, 0) solid;
+    width: 1500px;
+    height: 100px;
+    font-weight: bold;
+    background-color: green;
+}
+
+.second_layout{
+    border: 6px solid blue;
+    display: flex;
+    flex-direction: row;
+}

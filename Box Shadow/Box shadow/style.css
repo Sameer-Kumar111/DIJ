@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+/* border: 6px solid red; */
+height: 100vh;
+}
+
+.two_box{
+    /* border: 6px solid blue; */
+    height: 50vh;
+    display: flex;
+    align-items: top ;
+    justify-content: space-evenly;
+}
+
+.box1{
+    border: 8px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 5px 10px 10px rgb(14, 13, 13),5px 490px 10px rgb(0, 0, 0),5px 320px 10px rgb(238, 255, 2),5px 160px 10px rgb(6, 201, 22);
+}
+
+/* 
+.box2{
+    border: 8px solid black;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 1, 28);
+} */
+
+
+.box1:hover{
+    cursor: pointer;
+    background-color: black;
+}
